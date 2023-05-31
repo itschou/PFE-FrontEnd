@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# (PFE - ReactJS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![GitHub stars](https://img.shields.io/github/stars/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/network)
+[![GitHub issues](https://img.shields.io/github/issues/itschou/PFE-FrontEnd)](https://github.com/itschou/PFE-FrontEnd/issues)
 
-In the project directory, you can run:
+Le projet **Nom du Projet** est un site web basé sur ReactJS qui consomme une API Laravel 10. Ce site permet aux entreprises de chercher des fournisseurs pour les produits ou services qu'ils souhaitent acquérir. Il permet également aux fournisseurs de s'identifier, d'avoir des clients et de gérer leurs commandes.
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Entreprise
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Filtrer les fournisseurs en utilisant des catégories.
+- Obtenir les informations des fournisseurs pour les contacter.
+- Avoir un contact direct avec les fournisseurs.
+- Accéder aux coordonnées des fournisseurs (adresse, e-mail, téléphone).
+- Voir la disponibilité du stock des fournisseurs.
 
-### `npm test`
+### Fournisseur
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- S'enregistrer en tant que fournisseur.
+- Pouvoir modifier la disponibilité de leur stock directement sur le site.
 
-### `npm run build`
+### Admin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Accepter les nouveaux fournisseurs pour qu'ils apparaissent sur le tableau de bord des entreprises.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonez ce dépôt : `git clone https://github.com/itschou/PFE-FrontEnd.git`
+2. Accédez au répertoire du projet : `cd PFE-FrontEnd`
+3. Installez les dépendances : `npm install`
 
-### `npm run eject`
+## Configuration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Renommez le fichier `.env.example` en `.env` et modifiez les valeurs selon votre configuration.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Utilisation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Lancez l'application : `npm start`
+2. Ouvrez votre navigateur et accédez à `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribution
 
-## Learn More
+Les contributions sont les bienvenues ! Voici comment vous pouvez contribuer :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork le projet.
+2. Créez une branche pour votre fonctionnalité : `git checkout -b ma-nouvelle-fonctionnalite`
+3. Faites vos modifications.
+4. Committez vos changements : `git commit -m "Ajout d'une nouvelle fonctionnalité"`
+5. Poussez la branche : `git push origin ma-nouvelle-fonctionnalite`
+6. Ouvrez une Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Auteurs
 
-### Code Splitting
+- Chou - [Adresse e-mail](mailto:ouwoxpro@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE).
