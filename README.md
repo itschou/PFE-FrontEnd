@@ -32,9 +32,6 @@ Le projet **Nom du Projet** est un site web basé sur ReactJS qui consomme une A
 2. Accédez au répertoire du projet : `cd PFE-FrontEnd`
 3. Installez les dépendances : `npm install`
 
-## Configuration
-
-1. Renommez le fichier `.env.example` en `.env` et modifiez les valeurs selon votre configuration.
 
 ## Utilisation
 
